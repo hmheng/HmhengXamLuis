@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:HmhengXamLuis"
+             x:Class="HmhengXamLuis.MainPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Entry x:Name="txtMessage" Text="Command Here" />
+            <Button x:Name="btnConnect" Text="Send" />
+            <Label x:Name="lblIntentLabel" Text="Intent:" />
+            <Label x:Name="lblIntent" Text="" />
+            <Label x:Name="lblEntitiesLabel" Text="Entities:" />
+            <Label x:Name="lblEntities" Text="" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
